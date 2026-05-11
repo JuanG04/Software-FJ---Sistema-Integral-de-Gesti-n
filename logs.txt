@@ -1,0 +1,25 @@
+2026-05-11 11:26:28,915 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:26:28,918 - ERROR - Duración inválida
+2026-05-11 11:26:28,919 - ERROR - Correo inválido
+2026-05-11 11:26:39,080 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:26:39,081 - ERROR - Duración inválida
+2026-05-11 11:26:39,081 - ERROR - Correo inválido
+2026-05-11 11:28:17,031 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:28:17,033 - ERROR - Duración inválida
+2026-05-11 11:28:17,033 - ERROR - Correo inválido
+2026-05-11 11:29:03,317 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:29:03,318 - ERROR - Duración inválida
+2026-05-11 11:29:03,319 - ERROR - Correo inválido
+2026-05-11 11:29:28,474 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:29:28,474 - ERROR - Duración inválida
+2026-05-11 11:29:28,475 - ERROR - Correo inválido
+2026-05-11 11:32:16,620 - ERROR - Correo inválido
+2026-05-11 11:32:16,621 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:32:16,621 - ERROR - Correo inválido
+2026-05-11 11:32:16,623 - ERROR - cannot access local variable 'cliente1' where it is not associated with a value
+2026-05-11 11:32:34,195 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:32:34,196 - ERROR - Duración inválida
+2026-05-11 11:32:34,196 - ERROR - Correo inválido
+2026-05-11 11:43:32,071 - ERROR - El nombre no puede estar vacío
+2026-05-11 11:43:32,072 - ERROR - Duración inválida
+2026-05-11 11:43:32,073 - ERROR - Correo inválido
