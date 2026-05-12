@@ -1,33 +1,21 @@
+# Clase que gestiona las reservas de servicios para clientes.
 from excepciones import ReservaInvalida
 
 
 class Reserva:
- """Clase que representa una reserva de servicio para un cliente."""
-def __init__(self, cliente, servicio, duracion):
-
-     """
-        Inicializa una nueva reserva.
-        
-        Args:
-            cliente: Objeto cliente que realiza la reserva
-            servicio: Objeto servicio a reservar
-            duracion: Duración de la reserva en unidades de tiempo
-        """
-
-self.cliente = cliente
+    # Clase que representa una reserva de servicio para un cliente.
+   def __init__(self, cliente, servicio, duracion):
+     self.cliente = cliente
 self.servicio = servicio
 self.duracion = duracion
 self.estado = "Pendiente" # Estado inicial de la reserva
 
 def confirmar(self):
-    """
-        Confirma la reserva después de validar que la duración sea válida.
+    # Confirma la reserva validando la duración.
+        # Lanza:
+        #   ReservaInvalida si la duración es menor o igual a cero
         
-        Raises:
-            ReservaInvalida: Si la duración es menor o igual a cero
-        """
-        
-if self.duracion <= 0:
+    if self.duracion <= 0:
       raise ReservaInvalida("Duración inválida")
 
 # Valida que la duración sea mayor a cero
@@ -35,17 +23,15 @@ if self.duracion <= 0:
 self.estado = "Confirmada"
 
 def cancelar(self):
-     """Cancela la reserva cambiando su estado a cancelada."""
-self.estado = "Cancelada"
+     # Cancela la reserva cambiando su estado
+     
+    self.estado = "Cancelada"
 
 def mostrar_reserva(self):
-     """
-        Retorna una representación en texto de la reserva con los datos principales.
-        
-        Returns:
-            str: Cadena formateada con cliente, servicio y estado de la reserva
-        """
-return (
+      # Retorna una representación en texto de la reserva.
+        # Retorna:
+        #   str: información del cliente, servicio y estado
+    return (
             f"Cliente: {self.cliente.get_nombre()} | "
             f"Servicio: {self.servicio.descripcion()} | "
             f"Estado: {self.estado}"
